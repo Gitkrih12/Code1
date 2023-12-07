@@ -1,11 +1,11 @@
-def main():
-    y, x = 2, 8
+class Person:
+    def __init__(self,name,age):
+        self.name = name
+        self.age = age
 
-    if (y < x) :
-        st = "y is less than x"
-        # this is for a change in the code
-    print (st)
-if __name__ == "__main__":
-    main()
+p1 = Person("Ram", 35)
+
+print(p1.name)
+print(p1.age)
 
 
