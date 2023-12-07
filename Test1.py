@@ -18,7 +18,7 @@ class Person:
 
 p1 = Person("Laxman", 35)
 
-print(p1.name)
+print(p1.name):
 print(p1.age)
 
 
